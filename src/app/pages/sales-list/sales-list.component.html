@@ -1,0 +1,25 @@
+<ejs-grid [dataSource]="salesList">
+  <e-columns>
+    <e-column
+      field="cardholderName"
+      headerText="Kart Sahibi"
+      width="90"
+    ></e-column>
+    <e-column
+      field="transactionId"
+      headerText="İşlem Numarası"
+      width="120"
+    ></e-column>
+    <e-column
+      field="pan"
+      headerText="Kart Numarası"
+      width="90"
+    ></e-column>
+    <e-column
+      field="createdAt"
+      headerText="İşlem Tarihi"
+      format="yMd"
+      width="120"
+    ></e-column>
+  </e-columns>
+</ejs-grid>
